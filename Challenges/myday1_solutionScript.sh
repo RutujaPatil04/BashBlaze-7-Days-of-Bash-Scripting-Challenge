@@ -22,18 +22,13 @@ echo "Sum is: $sum"
 
 # Task 5 - Using Built-in variables
 
-# Displays current bash path
-echo "My current bash path - $BASH"
-# Displays Current bash Version
-echo "Bash version I am using - $BASH_VERSION"
+# Displays new path variables content
+echo "New PATH variable content - $PATH"
+# What is PPID and PID in Linux?
+Each unix process has two ID numbers assigned to it: The Process ID (pid) and the Parent process ID (ppid). Each user process in the system has a parent process. Most of the commands that you run have the shell as their parent.
+echo "Parent process ID - $PPID"
 # Displays process ID of bash
-echo "PID of bash I am running - $$"
-# Displays path of Home Directory
-echo "My home directory - $HOME"
-# Displays Present Working Directory
-echo "Where am I currently? - $PWD"
-# Displays the hostname of the system
-echo "My hostname - $HOSTNAME"
+echo "PID of bash I am running - $BASHPID"
 
 # Task 6
 # Using wild cards
